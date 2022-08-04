@@ -1,0 +1,37 @@
+main {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+  }
+  
+  main > h1, p, .browser {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .browser {
+    background: white;
+  }
+  
+  .browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
+
+  table, th, td {
+    border: 1px solid;
+    margin-top: 10vh;
+  }
+
+  .datos {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
